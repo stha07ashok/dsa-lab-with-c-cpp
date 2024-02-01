@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 void toh(int n, char src, char dest, char aux) {
-    if (n == 1) {
+    if (n<=0){
+        printf("\nillegal entry");
+        return;
+    }else if (n == 1 ){
         printf("Move disk 1 from %c to %c\n", src, dest);
         return;
     }
