@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void insertionSort(int a[], int n) {
     int i, j, temp;
     for (i = 1; i < n; i++) {
@@ -12,7 +11,6 @@ void insertionSort(int a[], int n) {
         a[j + 1] = temp;
     }
 }
-
 void display(int a[], int n) {
     printf("Sorted array:\n");
     for (int i = 0; i < n; i++) {
@@ -20,7 +18,6 @@ void display(int a[], int n) {
     }
     printf("\n");
 }
-
 int main() {
     int a[5];
     printf("Read:\n");
